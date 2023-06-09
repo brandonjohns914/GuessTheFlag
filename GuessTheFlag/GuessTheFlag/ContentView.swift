@@ -14,7 +14,7 @@ struct ContentView: View {
     @State private var correctAnswer = Int.random(in: 0...2)
     @State private var score = 0
     
-    let questions = 0
+    @State private var questions = 0
     
     var body: some View
     {
@@ -82,7 +82,8 @@ struct ContentView: View {
     
     func flagTapped(_ number: Int)
     {
-        
+       
+            questions += 1
             if number == correctAnswer
             {
                 scoreTitle = "CORRECT: \(countries[number])"
@@ -93,6 +94,17 @@ struct ContentView: View {
                 score -= 1
             }
             showingScore = true
+            
+            
+          
+        if questions == 8
+        {
+         scoreTitle = ("Game Over! Your score is \(score)")
+            score = 0
+            questions = 0
+            
+        }
+       
         
     }
     
