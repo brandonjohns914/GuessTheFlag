@@ -11,6 +11,7 @@
 		4174415F2A3160BE005D11B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174415E2A3160BE005D11B9 /* ContentView.swift */; };
 		417441612A3160C0005D11B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417441602A3160C0005D11B9 /* Assets.xcassets */; };
 		417441642A3160C0005D11B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417441632A3160C0005D11B9 /* Preview Assets.xcassets */; };
+		41CEF6FC2A3422D60003F971 /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CEF6FB2A3422D60003F971 /* FlagImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4174415E2A3160BE005D11B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		417441602A3160C0005D11B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		417441632A3160C0005D11B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41CEF6FB2A3422D60003F971 /* FlagImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		4174415B2A3160BE005D11B9 /* GuessTheFlag */ = {
 			isa = PBXGroup;
 			children = (
+				41CEF6FB2A3422D60003F971 /* FlagImage.swift */,
 				4174415C2A3160BE005D11B9 /* GuessTheFlagApp.swift */,
 				4174415E2A3160BE005D11B9 /* ContentView.swift */,
 				417441602A3160C0005D11B9 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4174415F2A3160BE005D11B9 /* ContentView.swift in Sources */,
+				41CEF6FC2A3422D60003F971 /* FlagImage.swift in Sources */,
 				4174415D2A3160BE005D11B9 /* GuessTheFlagApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
