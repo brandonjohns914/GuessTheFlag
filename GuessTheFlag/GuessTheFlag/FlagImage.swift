@@ -18,6 +18,7 @@ import SwiftUI
                 .renderingMode(.original)
                 .clipShape(RoundedRectangle(cornerRadius: 30))
                 .shadow(radius: 20)
+                
         }
     }
 
