@@ -11,6 +11,11 @@
 		4174415F2A3160BE005D11B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174415E2A3160BE005D11B9 /* ContentView.swift */; };
 		417441612A3160C0005D11B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417441602A3160C0005D11B9 /* Assets.xcassets */; };
 		417441642A3160C0005D11B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417441632A3160C0005D11B9 /* Preview Assets.xcassets */; };
+		41B95ECC2A58C56900C19B80 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B95ECB2A58C56900C19B80 /* Gradients.swift */; };
+		41B95ECE2A58E15900C19B80 /* Buttons_Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B95ECD2A58E15900C19B80 /* Buttons_Images.swift */; };
+		41B95ED02A58E59F00C19B80 /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B95ECF2A58E59F00C19B80 /* AlertMessages.swift */; };
+		41C661452A58BA5000A57514 /* StacksArrangeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C661442A58BA5000A57514 /* StacksArrangeViews.swift */; };
+		41C661482A58BD7200A57514 /* ColorsFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C661472A58BD7100A57514 /* ColorsFrames.swift */; };
 		41CEF6FC2A3422D60003F971 /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CEF6FB2A3422D60003F971 /* FlagImage.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +25,11 @@
 		4174415E2A3160BE005D11B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		417441602A3160C0005D11B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		417441632A3160C0005D11B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41B95ECB2A58C56900C19B80 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		41B95ECD2A58E15900C19B80 /* Buttons_Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons_Images.swift; sourceTree = "<group>"; };
+		41B95ECF2A58E59F00C19B80 /* AlertMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
+		41C661442A58BA5000A57514 /* StacksArrangeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksArrangeViews.swift; sourceTree = "<group>"; };
+		41C661472A58BD7100A57514 /* ColorsFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsFrames.swift; sourceTree = "<group>"; };
 		41CEF6FB2A3422D60003F971 /* FlagImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +66,7 @@
 				41CEF6FB2A3422D60003F971 /* FlagImage.swift */,
 				4174415C2A3160BE005D11B9 /* GuessTheFlagApp.swift */,
 				4174415E2A3160BE005D11B9 /* ContentView.swift */,
+				41C661462A58BA5400A57514 /* Tutorial */,
 				417441602A3160C0005D11B9 /* Assets.xcassets */,
 				417441622A3160C0005D11B9 /* Preview Content */,
 			);
@@ -68,6 +79,18 @@
 				417441632A3160C0005D11B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41C661462A58BA5400A57514 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				41C661442A58BA5000A57514 /* StacksArrangeViews.swift */,
+				41C661472A58BD7100A57514 /* ColorsFrames.swift */,
+				41B95ECB2A58C56900C19B80 /* Gradients.swift */,
+				41B95ECD2A58E15900C19B80 /* Buttons_Images.swift */,
+				41B95ECF2A58E59F00C19B80 /* AlertMessages.swift */,
+			);
+			path = Tutorial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +165,12 @@
 			files = (
 				4174415F2A3160BE005D11B9 /* ContentView.swift in Sources */,
 				41CEF6FC2A3422D60003F971 /* FlagImage.swift in Sources */,
+				41C661452A58BA5000A57514 /* StacksArrangeViews.swift in Sources */,
 				4174415D2A3160BE005D11B9 /* GuessTheFlagApp.swift in Sources */,
+				41B95ECE2A58E15900C19B80 /* Buttons_Images.swift in Sources */,
+				41C661482A58BD7200A57514 /* ColorsFrames.swift in Sources */,
+				41B95ED02A58E59F00C19B80 /* AlertMessages.swift in Sources */,
+				41B95ECC2A58C56900C19B80 /* Gradients.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
